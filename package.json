@@ -1,25 +1,26 @@
 {
-  "name": "@jafps/plugin-template",
+  "name": "@jafps/plugin-scalar",
   "version": "1.0.0",
-  "description": "",
+  "description": "Fastify plugin for OpenAPI 3.1 API reference documentation.",
   "type": "module",
   "private": true,
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc",
     "test": "node --enable-source-maps --experimental-test-coverage --test-coverage-exclude \"src/**/__tests__/*.ts\" --test \"./dist/**/__tests__/*.{spec,test}.js\"",
-    "lint": "eslint"
+    "lint": "eslint",
+    "script:scalar": "node script/scalar.js"
   },
   "author": "Joshua Avalon",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jafpsjs/plugin-template.git"
+    "url": "git+https://github.com/jafpsjs/plugin-scalar.git"
   },
   "bugs": {
-    "url": "https://github.com/jafpsjs/plugin-template/issues"
+    "url": "https://github.com/jafpsjs/plugin-scalar/issues"
   },
-  "homepage": "https://github.com/jafpsjs/plugin-template#readme",
+  "homepage": "https://github.com/jafpsjs/plugin-scalar#readme",
   "imports": {},
   "exports": {
     ".": {
@@ -37,6 +38,7 @@
   "devDependencies": {
     "@joshuaavalon/eslint-config-javascript": "^10.0.0",
     "@joshuaavalon/eslint-config-typescript": "^10.0.0",
+    "@scalar/api-reference": "^1.44.14",
     "@types/node": "^24.9.1",
     "eslint": "^9.38.0",
     "fastify": "^5.6.1",
