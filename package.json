@@ -36,9 +36,13 @@
     "!dist/**/__tests__/**/*"
   ],
   "devDependencies": {
+    "@fastify/helmet": "^13.0.2",
+    "@jafps/plugin-error": "^1.0.1",
+    "@jafps/plugin-openapi": "^1.1.1",
+    "@jafps/plugin-schema": "^1.2.6",
     "@joshuaavalon/eslint-config-javascript": "^10.0.0",
     "@joshuaavalon/eslint-config-typescript": "^10.0.0",
-    "@scalar/api-reference": "^1.44.14",
+    "@scalar/api-reference": "1.44.15",
     "@types/node": "^24.9.1",
     "eslint": "^9.38.0",
     "fastify": "^5.6.1",
@@ -48,6 +52,10 @@
     "typescript-eslint": "^8.48.0"
   },
   "dependencies": {
-    "fastify-plugin": "^5.1.0"
+    "@fastify/static": "^9.0.0",
+    "@fontsource/montserrat": "5.2.8",
+    "@fontsource/roboto": "5.2.9",
+    "fastify-plugin": "^5.1.0",
+    "typebox": "^1.0.81"
   }
 }
