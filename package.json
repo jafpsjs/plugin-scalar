@@ -31,6 +31,7 @@
     "fastify-plugin"
   ],
   "files": [
+    "public/**/*",
     "dist/**/*",
     "!dist/**/__tests__/**/*"
   ],
