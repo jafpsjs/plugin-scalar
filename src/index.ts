@@ -84,6 +84,7 @@ export default fp<ScalarPluginOptions>(
           contentSecurityPolicy: {
             directives: {
               "font-src": ["'self'"],
+              "script-src": ["'self'", "'unsafe-inline'", "'unsafe-eval'"],
               "style-src": ["'self'", "'unsafe-inline'"],
               "worker-src": ["'self'", "blob:"]
             },
@@ -130,7 +131,7 @@ export default fp<ScalarPluginOptions>(
       { config: { openapi: { hide: true } } },
       async (_req, res) => {
         const script = `
-          Scalar.createApiReference("#app", { 
+          Scalar.createApiReference("#app", {
             url: "./openapi.json",
             theme: "fastify",
             telemetry: false,
