@@ -42,7 +42,7 @@
     "@jafps/plugin-schema": "^1.2.8",
     "@joshuaavalon/eslint-config-javascript": "^11.0.3",
     "@joshuaavalon/eslint-config-typescript": "^11.0.0",
-    "@scalar/api-reference": "1.48.5",
+    "@scalar/api-reference": "1.49.3",
     "@types/node": "^25.4.0",
     "eslint": "^10.0.3",
     "fastify": "^5.8.2",
