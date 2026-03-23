@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/jafpsjs/plugin-scalar/compare/v1.0.3...v1.0.4) (2026-03-23)
+
+
+### Bug Fixes
+
+* Update CSP ([d59fe97](https://github.com/jafpsjs/plugin-scalar/commit/d59fe975d33f1197dfda701bd81de78f5ee5606d))
+
 ## [1.0.3](https://github.com/jafpsjs/plugin-scalar/compare/v1.0.2...v1.0.3) (2026-03-23)
 
 
