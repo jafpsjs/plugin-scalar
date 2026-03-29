@@ -107,7 +107,7 @@ export default fp<ScalarPluginOptions>(
         await res.sendFile("scalar.html");
       }
     );
-    const files = ["scalar.standalone.js", "favicon.svg", "openapi.json"];
+    const files = ["scalar.standalone.js", "favicon.svg"];
     for (const file of files) {
       app.get(
         `${prefix}/${file}`,
@@ -118,13 +118,13 @@ export default fp<ScalarPluginOptions>(
       );
     }
 
-    // app.get(
-    //   `${prefix}/openapi.json`,
-    //   { config: { openapi: { hide: true } } },
-    //   async function (_req, res) {
-    //     await res.send(this.openapi());
-    //   }
-    // );
+    app.get(
+      `${prefix}/openapi.json`,
+      { config: { openapi: { hide: true } } },
+      async function (_req, res) {
+        await res.send(this.openapi());
+      }
+    );
 
     app.get(
       `${prefix}/scalar.config.js`,
