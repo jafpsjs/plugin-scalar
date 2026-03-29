@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.7](https://github.com/jafpsjs/plugin-scalar/compare/v1.0.6...v1.0.7) (2026-03-29)
+
+
+### Bug Fixes
+
+* openapi.json route ([19cdd73](https://github.com/jafpsjs/plugin-scalar/commit/19cdd73e7edf68f666ef7c07f130230a901255a6))
+
 ## [1.0.6](https://github.com/jafpsjs/plugin-scalar/compare/v1.0.5...v1.0.6) (2026-03-29)
 
 
