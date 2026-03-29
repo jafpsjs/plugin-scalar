@@ -11,12 +11,12 @@ importers:
       '@fastify/static':
         specifier: ^9.0.0
         version: 9.0.0
-      '@fontsource/montserrat':
-        specifier: 5.2.8
+      '@fontsource-variable/montserrat':
+        specifier: ^5.2.8
         version: 5.2.8
-      '@fontsource/roboto':
-        specifier: 5.2.10
-        version: 5.2.10
+      '@fontsource-variable/source-code-pro':
+        specifier: ^5.2.7
+        version: 5.2.7
       fastify-plugin:
         specifier: ^5.1.0
         version: 5.1.0
@@ -222,11 +222,11 @@ packages:
   '@floating-ui/vue@1.1.9':
     resolution: {integrity: sha512-BfNqNW6KA83Nexspgb9DZuz578R7HT8MZw1CfK9I6Ah4QReNWEJsXWHN+SdmOVLNGmTPDi+fDT535Df5PzMLbQ==}
 
-  '@fontsource/montserrat@5.2.8':
-    resolution: {integrity: sha512-xTjLxSbSfCycDB0pwmNsfNvdfWPaDaRQ2LC6yt/ZI7SdvXG52zHnzNYC/09mzuAuWNJyShkteutfCoDgym56hQ==}
+  '@fontsource-variable/montserrat@5.2.8':
+    resolution: {integrity: sha512-d8wykq7GCKhEOlLwEuQIOK3w3qsXNxwDlH0meru4AZZzQ4/+rZyvHWKL6BBtHdmbovSHEEQDkwkD8qYUKlcFtQ==}
 
-  '@fontsource/roboto@5.2.10':
-    resolution: {integrity: sha512-8HlA5FtSfz//oFSr2eL7GFXAiE7eIkcGOtx7tjsLKq+as702x9+GU7K95iDeWFapHC4M2hv9RrpXKRTGGBI8Zg==}
+  '@fontsource-variable/source-code-pro@5.2.7':
+    resolution: {integrity: sha512-kZ0VNwnhvSA7vu5MaiO52eicQ4zC+k+8HBLZb+1js0MK/RngLy25NEUFB1y/AKd0ZMwru88T433QBcFf9m/huw==}
 
   '@headlessui/tailwindcss@0.2.2':
     resolution: {integrity: sha512-xNe42KjdyA4kfUKLLPGzME9zkH7Q3rOZ5huFihWNWOQFxnItxPB3/67yBI8/qBfY8nwBRx5GHn4VprsoluVMGw==}
@@ -2243,9 +2243,9 @@ snapshots:
       - '@vue/composition-api'
       - vue
 
-  '@fontsource/montserrat@5.2.8': {}
+  '@fontsource-variable/montserrat@5.2.8': {}
 
-  '@fontsource/roboto@5.2.10': {}
+  '@fontsource-variable/source-code-pro@5.2.7': {}
 
   '@headlessui/tailwindcss@0.2.2(tailwindcss@4.1.18)':
     dependencies:
