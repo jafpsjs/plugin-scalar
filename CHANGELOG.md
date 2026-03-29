@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.6](https://github.com/jafpsjs/plugin-scalar/compare/v1.0.5...v1.0.6) (2026-03-29)
+
+
+### Bug Fixes
+
+* Update fonts ([5d92d8e](https://github.com/jafpsjs/plugin-scalar/commit/5d92d8eadea4b60b9bc2cfeb712144a1e5676ebc))
+
 ## [1.0.5](https://github.com/jafpsjs/plugin-scalar/compare/v1.0.4...v1.0.5) (2026-03-29)
 
 
