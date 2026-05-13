@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.8](https://github.com/jafpsjs/plugin-scalar/compare/v1.0.7...v1.0.8) (2026-05-13)
+
+
+### Bug Fixes
+
+* Update dependencies ([2c20aa0](https://github.com/jafpsjs/plugin-scalar/commit/2c20aa0f377ce30541f084f751c5b7cecee29b4b))
+
 ## [1.0.7](https://github.com/jafpsjs/plugin-scalar/compare/v1.0.6...v1.0.7) (2026-03-29)
 
 
