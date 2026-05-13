@@ -1,5 +1,7 @@
 # @jafps/plugin-scalar
 
+[![NPM Version](https://img.shields.io/npm/v/%40jafps%2Fplugin-scalar)](https://www.npmjs.com/package/@jafps/plugin-scalar)
+
 Fastify plugin for OpenAPI 3.1 API reference documentation.
 
 It depends on [@fastify/helmet] and [@jafps/plugin-openapi].
