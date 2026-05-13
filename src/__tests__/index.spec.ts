@@ -35,26 +35,34 @@ describe("@jafps/plugin-scalar", () => {
     assert.equal(res.statusCode, 200);
   });
 
-  it("should return css", async () => {
+  it("should return montserrat css", async () => {
     const res = await app.inject({
       method: "GET",
-      path: "/api/fonts/roboto/300.css"
+      path: "/api/fonts/montserrat/wght.css"
     });
     assert.equal(res.statusCode, 200);
   });
 
-  it("should return woff font", async () => {
+  it("should return montserrat woff2 font", async () => {
     const res = await app.inject({
       method: "GET",
-      path: "/api/fonts/roboto/files/roboto-latin-700-normal.woff"
+      path: "/api/fonts/montserrat/files/montserrat-latin-wght-normal.woff2"
     });
     assert.equal(res.statusCode, 200);
   });
 
-  it("should return woff2 font", async () => {
+  it("should return source-code-pro css", async () => {
     const res = await app.inject({
       method: "GET",
-      path: "/api/fonts/roboto/files/roboto-latin-700-normal.woff2"
+      path: "/api/fonts/source-code-pro/wght.css"
+    });
+    assert.equal(res.statusCode, 200);
+  });
+
+  it("should return source-code-pro woff2 font", async () => {
+    const res = await app.inject({
+      method: "GET",
+      path: "/api/fonts/source-code-pro/files/source-code-pro-latin-wght-normal.woff2"
     });
     assert.equal(res.statusCode, 200);
   });
@@ -62,7 +70,7 @@ describe("@jafps/plugin-scalar", () => {
   it("should not return font", async () => {
     const res = await app.inject({
       method: "GET",
-      path: "/api/fonts/roboto/files/.woff2"
+      path: "/api/fonts/montserrat/files/.woff2"
     });
     assert.equal(res.statusCode, 404);
   });

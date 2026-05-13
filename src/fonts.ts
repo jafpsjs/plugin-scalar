@@ -5,15 +5,6 @@ import type { FastifyInstance } from "fastify";
 
 export function addFontsRoutes(app: FastifyInstance, prefix: string): void {
   const fonts = ["montserrat", "source-code-pro"];
-  // const files = [
-  //   "cyrillic-ext-wght-normal",
-  //   "cyrillic-wght-normal",
-  //   "greek-ext-wght-normal",
-  //   "greek-wght-normal",
-  //   "vietnamese-wght-normal",
-  //   "latin-ext-wght-normal",
-  //   "latin-wght-normal"
-  // ];
   for (const font of fonts) {
     const fontRoot = resolve(dirname(fileURLToPath(import.meta.resolve(`@fontsource-variable/${font}`))));
     app.get(
